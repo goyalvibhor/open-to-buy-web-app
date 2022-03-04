@@ -50,21 +50,21 @@
 * JQuery 
 
 ### Installation
-1. Import the file `assets/setup/DBcreation.sql` into the current DBMS. The dump file also creates the database (named `klik_loginsystem`), so no prior action is needed. If database name needs to be updated, change it in the dump file where the database title is declared.
+1. Import the file `assets/setup/DBcreation.sql` into the current DBMS. The dump file also creates the database (named `database`), so no prior action is needed. If database name needs to be updated, change it in the dump file where the database title is declared.
 
 2. Edit the file `assets/setup/env.php` and setup the Application information, Database connection and SMTP server. Port value is usually not needed in Database connections, so only edit if you know what you are doing. The email server (and the connected email account) will be used to send confirmation, validation and notification emails. 
 
 ```php
 // env.php
 
-if (!defined('APP_NAME'))                       define('APP_NAME', 'Login System');
-if (!defined('APP_ORGANIZATION'))               define('APP_ORGANIZATION', 'KLiK');
-if (!defined('APP_OWNER'))                      define('APP_OWNER', 'msaad1999');
-if (!defined('APP_DESCRIPTION'))                define('APP_DESCRIPTION', 'Embeddable PHP Login System');
+if (!defined('APP_NAME'))                       define('APP_NAME', 'Login-Register System');
+if (!defined('APP_ORGANIZATION'))               define('APP_ORGANIZATION', 'Spazetech Solutions');
+if (!defined('APP_OWNER'))                      define('APP_OWNER', 'goyalvibhor');
+if (!defined('APP_DESCRIPTION'))                define('APP_DESCRIPTION', 'LOGIN SYSTEM FOR OPEN-TO-BUY');
 
 if (!defined('ALLOWED_INACTIVITY_TIME'))        define('ALLOWED_INACTIVITY_TIME', time()+1*60);
 
-if (!defined('DB_DATABASE'))                    define('DB_DATABASE', 'klik_loginsystem');
+if (!defined('DB_DATABASE'))                    define('DB_DATABASE', 'database');
 if (!defined('DB_HOST'))                        define('DB_HOST','127.0.0.1');
 if (!defined('DB_USERNAME'))                    define('DB_USERNAME','root');
 if (!defined('DB_PASSWORD'))                    define('DB_PASSWORD' ,'');
