@@ -3,7 +3,7 @@
 require 'env.php';
 
 
-$conn = mysqli_connect('localhost', 'root', '', 'klik_loginsystem');
+$conn = mysqli_connect('localhost', 'root', '', 'database');
 
 if (!$conn)
 {
