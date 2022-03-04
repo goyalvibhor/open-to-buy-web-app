@@ -1,10 +1,10 @@
 
 --
--- Database: `klik_loginsystem`
+-- Database: `database`
 --
 
--- create schema klik_loginsystem;
-use klik_loginsystem;
+-- create schema database;
+use database;
 
 -- --------------------------------------------------------
 
