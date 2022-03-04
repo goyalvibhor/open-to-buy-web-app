@@ -1,9 +1,4 @@
-<p align="center">
-  <img src="assets/images/README_cover.png" width="350" align="center"/>
-</p><br>
-
-> Embeddable and Highly Secure PHP Authentication System with Login, Signup, User Profiles, Profile Editing, Account Verification via Email, Password Reset System, Remember Me Feature, Automatic Logout on Inactivity,  Global ERROR & STATUS variable system, Authentication checks and more.
-
+Open to buy is an inventory management tool which can be used by e-commerce industry. 
 # Table of Contents
 
 - [Table of Contents](#table-of-contents)
