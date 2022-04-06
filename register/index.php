@@ -128,7 +128,7 @@ check_logged_out();
                         <label class="custom-control-label" for="female">Female</label>
                     </div>
                 </div>
-                <!-- <div class="g-recaptcha" data-sitekey="6LfxbKkeAAAAAI3P6RtJsCzLerz09tHCFg0VELi8"></div> -->
+                <div class="g-recaptcha" data-sitekey="6LfxbKkeAAAAAI3P6RtJsCzLerz09tHCFg0VELi8"></div>
 
                 <button class="btn btn-lg btn-primary btn-block" type="submit" name='signupsubmit'>Signup</button>
 
@@ -171,4 +171,4 @@ include '../assets/layouts/footer.php'
         readURL(this);
     });
 </script>
-<!-- <script src="https://www.google.com/recaptcha/api.js" async defer></script> -->
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
