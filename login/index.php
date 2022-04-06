@@ -59,6 +59,7 @@ check_logged_out();
                         <input type="checkbox" class="custom-control-input" id="rememberme" name="rememberme">
                         <label class="custom-control-label" for="rememberme">Remember me</label>
                     </div>
+                    <div class="g-recaptcha" data-sitekey="6LfxbKkeAAAAAI3P6RtJsCzLerz09tHCFg0VELi8"></div>
                 </div>
 
                 <button class="btn btn-lg btn-primary btn-block" type="submit" value="loginsubmit" name="loginsubmit">Login</button>
@@ -74,7 +75,7 @@ check_logged_out();
         </div>
     </div>
 </div>
-
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
 <?php
 
